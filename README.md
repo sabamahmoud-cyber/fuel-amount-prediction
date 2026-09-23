@@ -193,4 +193,4 @@ scikit-learn
 This notebook only covers **Part 1** (cleaning, reshaping, unit
 conversion). Suggested follow-on work:
 1. **EDA** on `df_gge_fuel` 
-3. **Regression modeling** `Total_GGE` regression model against agency/mode features.
+3. **Regression modeling** `GGE` regression model against agency/mode features.
