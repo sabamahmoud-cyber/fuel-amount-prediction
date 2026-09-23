@@ -166,7 +166,7 @@ scikit-learn
 ```
 
 **Steps**
-1. https://data.transportation.gov/Public-Transit/2022-2024-NTD-Annual-Data-Fuel-and-Energy/8ehq-7his/about_data 
+1. fuel data cleaning.ipynb
 2. Run all cells top to bottom — each stage depends on the output of the
    one before it (raw load → drop columns → melt fuel → melt efficiency →
    join → GGE conversion → tidy GGE table).
