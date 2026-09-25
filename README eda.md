@@ -56,10 +56,15 @@ descending, and plots a horizontal bar chart.
 | Electric Battery | 2,141,713 | 0.2% |
 | Hydrogen | 328,216 | <0.1% |
 
+<img width="889" height="490" alt="image" src="https://github.com/user-attachments/assets/60aaa3fc-48b4-4bd0-9ee1-e11e14ff60c2" />
+
 **Takeaway:** Diesel accounts for nearly half of all reported fuel
 consumption (GGE-basis) across U.S. transit agencies. Electric
 Propulsion (third-rail/overhead-wire systems) and CNG are essentially
 tied for a distant second, together making up another ~37%.
+
+
+
 
 ## 5. EDA 2 — Top States
 
@@ -85,6 +90,11 @@ takes the top 15 (`TOP_N_STATES = 15`).
 | 13 | OH | 17,325,570 |
 | 14 | VA | 15,126,750 |
 | 15 | GA | 14,683,010 |
+
+
+<img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/33724920-af27-4cf0-ac62-d07ff47e2e7e" />
+
+
 
 **Takeaway:** New York and California are far ahead of every other
 state, together accounting for roughly a third of all reported fuel
@@ -118,6 +128,10 @@ transit agencies (MTA, LA Metro, etc.).
 | Inclined Plane | 11,050 |
 | Aerial Tramway | 10,836 |
 
+
+<img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/37dcd749-644a-491c-ad72-48b7983f4cfd" />
+
+
 **Takeaway:** Bus service alone accounts for over half of all reported
 fuel/energy consumption — unsurprising given how much of U.S. transit
 service (and mileage) runs on buses. Rail modes (Commuter + Heavy +
@@ -129,6 +143,10 @@ Light) together make up roughly 29%.
 `Fuel Type`, reorders rows to match the mode ranking from EDA 3, then
 plots a normalized (share-of-total) stacked horizontal bar chart so each
 mode's fuel mix is comparable regardless of its overall size.
+
+
+<img width="985" height="690" alt="image" src="https://github.com/user-attachments/assets/34c96c20-88c7-4be0-8fd1-60238308ea02" />
+
 
 **Selected findings from the pivot table:**
 
